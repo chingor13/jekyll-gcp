@@ -1,0 +1,5 @@
+steps:
+- name: 'gcr.io/$PROJECT_ID/jekyll'
+  args: ['build', '--destination', '/workspace/_site']
+- name: 'gcr.io/cloud-builders/gsutil'
+  args: ['-m', 'rsync', '-d', '-h "Cache-Control:public, max-age=300"', '/workspace/_site/', 'gs://jekyll-test/']
