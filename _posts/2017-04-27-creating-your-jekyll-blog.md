@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Creating Your Jekyll Blog"
-date:   2017-04-27 08:12:00 -0800
+date:   2017-04-27 06:12:00 -0800
 categories: jekyll ruby
 comments: true
 ---
