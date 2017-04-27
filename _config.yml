@@ -1,21 +1,27 @@
 # Site configuration
 
-domain: "http://php.chingr.com"
+domain: "http://jekyll.chingr.com"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://php.chingr.com/" # the base hostname & protocol for your site
+url: "http://jekyll.chingr.com/" # the base hostname & protocol for your site
 permalink: /:title/
 basecss: /css/main.css
 # Theme specific configuration
 author: chingor
-title: Building PHP 7 Extensions
+title: Jekyll Test
 description: >
-  This blog will document the process of building a PHP 7 extension in C.
+  This blog will document the process of building a Jeykll Site on Google Cloud Platform
 
 # Contact and social media links
 twitter_username: chingor
 github_username: chingor13
 
-exclude: ['node_modules', 'gulpfile.js', 'package.json']
+exclude:
+  - node_modules
+  - gulpfile.js
+  - package.json
+  - Gemfile
+  - Gemfile.lock
+  - cloudbuild.yaml
 
 kramdown:
   input: GFM
@@ -35,4 +41,4 @@ defaults:
       type: posts
     values:
       layout: post
-      categories: php php7 extensions
+      categories: gcp jekyll
