@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Creating Your Jekyll Blog"
-date:   2017-04-27 09:12:00 -0800
+date:   2017-04-27 08:12:00 -0800
 categories: jekyll ruby
 comments: true
 ---
@@ -20,4 +20,4 @@ gem 'jekyll'
 ```
 
 For the purpose of this blog, I'll be using Jekyll 3.4.x, but this whole
-process will 
+process will
